@@ -30,3 +30,4 @@ dist-ssr
 .beads/
 .agents/
 AGENTS.md
+skills-lock.json
