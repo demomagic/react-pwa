@@ -1,10 +1,10 @@
 import { FullSizeCentered } from '@/components/styled';
 import useOrientation from '@/hooks/useOrientation';
 
+import jotaiLogo from './logos/jotai.svg';
 import muiLogo from './logos/mui.svg';
 import pwaLogo from './logos/pwa.svg';
 import reactLogo from './logos/react_ed.svg';
-import recoilLogo from './logos/recoil.svg';
 import rrLogo from './logos/rr.svg';
 import tsLogo from './logos/ts.svg';
 import viteLogo from './logos/vite.svg';
@@ -25,7 +25,7 @@ function Welcome() {
         <Image alt="typescript" src={tsLogo} />
         <Image alt="react" src={reactLogo} sx={{ width, height }} />
         <Image alt="mui" src={muiLogo} />
-        <Image alt="recoil" src={recoilLogo} />
+        <Image alt="jotai" src={jotaiLogo} />
         <Image alt="pwa" src={pwaLogo} />
       </FullSizeCentered>
     </>
